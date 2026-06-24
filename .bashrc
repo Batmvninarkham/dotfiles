@@ -48,6 +48,13 @@ PS1="$user $host $dirc $symbol"
    # End subscript mode
    # (probably isn't supported)
    export LESS_TERMCAP_ZV=$'\e[75m'
+
+    # Begin superscript mode
+   # (probably isn't supported)
+   export LESS_TERMCAP_ZO=$'\e[73m'
+   
+   # End superscript mode                                                        
+    export LESS_TERMCAP_ZW=$'\e[75m'
    
    # Finally wire up `man` to use `less`
  # this is usually the default but let's just be sure
