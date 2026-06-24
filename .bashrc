@@ -40,14 +40,7 @@ PS1="$user $host $dirc $symbol"
   
   # Begin dim/half-bright mode
   export LESS_TERMCAP_mh=$'\e[2m'
-  
-  # Begin subscript mode
-  # (probably isn't supported)
-  export LESS_TERMCAP_ZN=$'\e[74m'
-  
-  # End subscript mode
-  # (probably isn't supported)
-  
+
   # Begin subscript mode
   # (probably isn't supported)
   export LESS_TERMCAP_ZN=$'\e[74m'
@@ -56,13 +49,6 @@ PS1="$user $host $dirc $symbol"
    # (probably isn't supported)
    export LESS_TERMCAP_ZV=$'\e[75m'
    
-   # Begin superscript mode
-   # (probably isn't supported)
-   export LESS_TERMCAP_ZO=$'\e[73m'
-   
- # End superscript mode                                                        
-export LESS_TERMCAP_ZW=$'\e[75m'
-  
    # Finally wire up `man` to use `less`
  # this is usually the default but let's just be sure
  export MANPAGER='less'
