@@ -8,3 +8,5 @@ sudo apt install nodejs npm
 sudo apt install clangd
 #in vim :CocInstall coc-clangd
 #rust language server :CocInstall coc-rust-analyzer
+#html and typescript+js server
+:CocInstall coc-html coc-tsserver
